@@ -16,6 +16,13 @@ public class DevlopmentProjectApplication {
 	@GetMapping("/")
 	public String hello() {
 		return String.format("Hello Development Project");
+		
+	      
+	    }
+	@GetMapping("/")
+	public String hello1() {
+		return String.format("Hello Development Project 1");
+		
 	      
 	    }
 
